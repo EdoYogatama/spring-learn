@@ -1,6 +1,6 @@
 package com.yogatama.edo.springlearn.Game;
 
-public class MarioGame {
+public class MarioGame implements IGame{
 
 	public MarioGame() {
 		

@@ -1,6 +1,6 @@
 package com.yogatama.edo.springlearn.Game;
 
-public class PacmanGame {
+public class PacmanGame implements IGame{
 	
 	public void up() {
 		System.out.println("Go Up");

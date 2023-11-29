@@ -1,6 +1,6 @@
 package com.yogatama.edo.springlearn.Game;
 
-public class SnakeGame {
+public class SnakeGame implements IGame{
 
 	private boolean isTurned = false;
 	
