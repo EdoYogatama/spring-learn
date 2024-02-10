@@ -1,12 +1,13 @@
 package com.yogatama.edo.springlearn.Runner;
 
+import com.yogatama.edo.springlearn.Game.IGame;
 import com.yogatama.edo.springlearn.Game.MarioGame;
 
 public class GameRunner {
 	
-	private MarioGame game;
+	private IGame game;
 	
-	public GameRunner(MarioGame game) {
+	public GameRunner(IGame game) {
 		this.game = game;
 	}
 	
