@@ -3,6 +3,7 @@ package com.yogatama.edo.springlearn.Main;
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.yogatama.edo.springlearn.Configuration.GamingConfiguration;
 import com.yogatama.edo.springlearn.Game.IGame;
 import com.yogatama.edo.springlearn.Runner.GameRunner;
 

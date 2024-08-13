@@ -1,4 +1,4 @@
-package com.yogatama.edo.springlearn.Main;
+package com.yogatama.edo.springlearn.Configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
