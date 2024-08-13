@@ -4,7 +4,7 @@ import com.yogatama.edo.springlearn.Game.IGame;
 import com.yogatama.edo.springlearn.Game.MarioGame;
 import com.yogatama.edo.springlearn.Runner.GameRunner;
 
-public class AppMain {
+public class AppGameBasic {
 
 	public static void main(String[] args) {
 		IGame game = new MarioGame();
