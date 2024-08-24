@@ -1,5 +1,10 @@
 package com.yogatama.edo.springlearn.Game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("SnakeQualifier")
 public class SnakeGame implements IGame{
 
 	private boolean isTurned = false;

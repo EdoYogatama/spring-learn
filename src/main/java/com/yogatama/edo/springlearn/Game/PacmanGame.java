@@ -1,5 +1,8 @@
 package com.yogatama.edo.springlearn.Game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacmanGame implements IGame{
 	
 	public void up() {

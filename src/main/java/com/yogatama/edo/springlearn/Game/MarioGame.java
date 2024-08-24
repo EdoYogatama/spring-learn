@@ -1,5 +1,10 @@
 package com.yogatama.edo.springlearn.Game;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
 public class MarioGame implements IGame{
 
 	public MarioGame() {
